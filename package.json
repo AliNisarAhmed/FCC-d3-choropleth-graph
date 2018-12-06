@@ -1,0 +1,21 @@
+{
+  "name": "fcc-d3-choropleth-map",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "d3": "5.7.0",
+    "topojson": "3.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "@types/d3": "5.0.1",
+    "@types/topojson": "3.2.1",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
+}

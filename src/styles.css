@@ -1,0 +1,28 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background: rgba(150, 150, 150, 0.3);
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+svg {
+  border: 1px solid black;
+  background: rgba(150, 150, 150, 0.3);
+}
+
+#tooltip {
+  display: inline-block;
+  position: relative;
+  padding: 5px;
+  font-size: 12px;
+  background: black;
+  color: white;
+  border-radius: 10px;
+}
