@@ -26,3 +26,7 @@ svg {
   color: white;
   border-radius: 10px;
 }
+
+text {
+  font-size: 10px;
+}
