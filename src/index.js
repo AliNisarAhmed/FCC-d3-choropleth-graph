@@ -96,7 +96,8 @@ Promise.all([
     .attr("d", pathGenerator2)
     .attr("fill", "none")
     .attr("stroke", stateBorderColor)
-    .attr("stroke-width", stateBorderWidth);
+    .attr("stroke-width", stateBorderWidth)
+    .attr("stroke-linejoin", "round");
 
   const path = pathOne
     .enter()
